@@ -1,0 +1,60 @@
+.text-divisor {
+    text-align: center;
+    font-size: 2rem;
+    color: #E1002A;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {  
+    border: 1px solid #ddd;  
+    border-radius: 8px;  
+    padding: 16px;  
+    margin: 16px;  
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);  
+    width: 300px;  
+    background-color: #fff;
+    text-align: center;  
+}
+
+.card:hover {
+    scale: 1.2;
+    transition: 0.3s;
+}
+
+.card-title {  
+    font-size: 1.5em;  
+    margin-bottom: 8px;  
+}  
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.card-content {  
+    font-size: 1em;  
+    margin-bottom: 12px;  
+}  
+.card-footer {  
+    text-align: right;  
+    font-size: 0.9em;  
+    color: #aaa;  
+} 
+
+.client-logo {
+    opacity: 0.8;
+    height: 250px;  
+}
+
+.client-logo:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+

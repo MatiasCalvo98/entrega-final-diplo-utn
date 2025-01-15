@@ -1,0 +1,42 @@
+footer {
+    background-color: red;
+    color: #fff;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+li {
+    padding: 10px;
+}
+
+.logos-footer {
+    padding-top: 20px;
+}
+
+.logos-footer p {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.logos-footer img {
+    width: 30px;
+    opacity: 0.8;
+    transition: 0.3 ease all;
+}
+
+.logos-footer img:hover {
+    opacity: 1;
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 0px;
+}
