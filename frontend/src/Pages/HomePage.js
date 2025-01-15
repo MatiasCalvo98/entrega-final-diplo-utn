@@ -58,8 +58,6 @@ const HomePage = (props) => {
                     <img className="client-logo" src="/img/shlogo.svg"  alt="Smilehood"/>
                 </div>
             </div>
-
-
         </main>
             
 )
