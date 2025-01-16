@@ -1,9 +1,13 @@
+* {
+overflow-x: hidden;
+}
 .navbar {
+    width: 100%;
     position: sticky;
     background-color: #fff;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .navbar img {
@@ -12,8 +16,8 @@
 }
 
 .navbar ul {
+     width: 100%;
      margin: 0;
-     margin-right: 25vh;
      padding: 0; 
      justify-content: flex-end;
      flex-direction: row;
@@ -21,6 +25,7 @@
 }
 
 .navbar li a {
+    flex-wrap: wrap;
     text-decoration: none;
     font-weight: bold;
     font-size: 25px;
@@ -31,6 +36,18 @@
     color: #E1002A;
     transition: 0.3s;
 }
+
+@media (max-width: 768px) {  
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    .navbar ul {
+        justify-content: center;
+    } 
+} 
+
+
 
 
 
