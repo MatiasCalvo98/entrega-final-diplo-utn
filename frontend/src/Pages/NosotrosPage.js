@@ -47,7 +47,7 @@ const NosotrosPage = (props) => {
                             <h5>Juan Marina</h5>
                             <h6>Co-Founder CEO</h6>
                             <p>
-                                Con multiples años de expertise en el marketing digital, creciendo negocios a +200.000€ y obteniendo experiencia en las empresas mas grandes del mundo. Matias y sus socio decidieron dar un paso hacia adelante y ofrecer un servicio 360 de Data y Analaytics
+                            Pasando por su carrera militar, Juan decidió dar un giro en su vida y dedicarse a lo que le apasiona en verdad, Martech y Data Science. Pasando por las empresas top a nivel global, junto a las big four. Juan se asentó en Disney donde desarrolla su carrera y se convierte en uno de los mejores en su sector.
                             </p>
                         </div>
                     
