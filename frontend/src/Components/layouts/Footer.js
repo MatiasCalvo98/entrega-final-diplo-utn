@@ -12,7 +12,7 @@ const Footer = (props) => {
                 <li><img src="/img/facebook-logo.png" alt="ig logo"></img></li>
                 </ul>
             </div>
-            <p className="copyright">Derechos Reservados. Hermes Agency 2024</p>
+            <p className="copyright">Derechos Reservados. Hermes Agency 2024 (entrega final UTN)</p>
         </footer>
     )
 }
