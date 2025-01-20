@@ -5,7 +5,7 @@ const NovedadesPage = (props) => {
     return (
         <section className="holder">
             <h2>Novedades</h2>
-            <div className="novedades">
+            <div className="novedades-container">
                 <h2>titulo</h2>
                 <h2>subtitulo</h2>
                 <h2>cuerpo</h2>
