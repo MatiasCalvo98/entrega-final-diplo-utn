@@ -1,20 +1,16 @@
 import React from 'react';
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 
-require('dotenv').config()
-var pool = require('../models/bd')
+//require('dotenv').config()
+//var pool = require('../../backend/models/bd')
 
-pool.query('select * from posts').then(function (resultados){
-  console.log(resultados)
-})
+import Nav from './Components/layouts/Nav';
+import Footer from './Components/layouts/Footer'
 
-import Nav from './src/Components/layouts/Nav';
-import Footer from './src/Components/layouts/Footer'
-
-import HomePage from './src/Pages/HomePage';
-import NosotrosPage from './src/Pages/NosotrosPage';
-import NovedadesPage from './src/Pages/NovedadesPage';
-import ContactoPage from './src/Pages/ContactoPage';
+import HomePage from './Pages/HomePage';
+import NosotrosPage from './Pages/NosotrosPage';
+import NovedadesPage from './Pages/NovedadesPage';
+import ContactoPage from './Pages/ContactoPage';
 
 
 function App() {
